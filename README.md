@@ -343,6 +343,29 @@ Explore the project on [GitHub](https://github.com/notsoocool/codecache) and joi
 
 <a href="https://github.com/notsoocool/codecache/graphs/contributors"> <img src="https://contrib.rocks/image?repo=notsoocool/codecache" /> </a>
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## Stargazers ❤️
+
+<div align='left'>
+
+[![Stargazers repo roster for @notsoocool/codecache](https://reporoster.com/stars/dark/notsoocool/codecache)](https://github.com/notsoocool/codecache/stargazers)
+
+
+</div>
+
+## Forkers ❤️
+
+[![Forkers repo roster for @notsoocool/codecache](https://reporoster.com/forks/dark/notsoocool/codecache)](https://github.com/notsoocool/codecache/network/members)
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
+
+
+
+
 
 We are immensely grateful to the following amazing individuals who have contributed their time, effort, and expertise to make this project better. Your contributions, whether through code, documentation, bug reports, or feature suggestions, have been invaluable. Thank you for helping us build and improve CodeCache! 🌟✨
 
