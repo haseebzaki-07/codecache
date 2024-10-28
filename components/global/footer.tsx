@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { Button } from "../ui/button";
 import { Github } from "lucide-react";
-import { StayUpdated } from "../ui/stayupdated";
 
 export const Footer = () => {
   return (
@@ -32,8 +31,6 @@ export const Footer = () => {
           </p>
 
           <div className="flex items-center justify-center space-x-4 sm:ml-auto sm:justify-end">
-            <StayUpdated />
-
             <Link
               href="https://github.com/notsoocool"
               target="_blank"

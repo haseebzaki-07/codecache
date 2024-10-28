@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Send, Mail, User, MessageSquare, Loader2 } from "lucide-react";
 import Image from "next/image";
+import { StayUpdated } from "@/components/ui/stayupdated";
 
 export default function ContactPage() {
   const [name, setName] = useState("");
@@ -126,6 +127,7 @@ export default function ContactPage() {
               )}
             </Button>
           </form>
+          <StayUpdated />
         </motion.div>
       </div>
     </main>

@@ -4,7 +4,6 @@ import { ThemeProvider } from "@/components/global/theme-provider";
 import { ClerkProvider } from "@clerk/nextjs";
 import { ReactLenis } from "@/utils/lenis";
 import { SearchProvider } from "@/SearchContext";
-import { ToastContainer } from "react-toastify";
 
 export const metadata: Metadata = {
   title: "CodeCache - Snippet Manager for Developers",
@@ -55,7 +54,6 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             <SearchProvider>{children}</SearchProvider>
-            <ToastContainer />
           </ThemeProvider>
         </body>
         {/* </ReactLenis> */}

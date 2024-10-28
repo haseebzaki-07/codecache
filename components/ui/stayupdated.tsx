@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "./button";
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import { Toaster } from "./sonner";
+import { toast } from "sonner";
 
 export const StayUpdated = () => {
   const [email, setEmail] = useState("");
@@ -33,7 +33,7 @@ export const StayUpdated = () => {
         const data = await res.json();
         throw new Error(data.message || "Failed to subscribe");
       }
-    } catch (error: any) {
+    } catch (error) {
       toast.error(error.message || "An error occurred");
     } finally {
       setIsLoading(false);
@@ -41,7 +41,7 @@ export const StayUpdated = () => {
   };
 
   return (
-    <div className="w-full max-w-md mx-auto ">
+    <div className="w-full max-w-md mx-auto mt-28">
       <form
         onSubmit={handleSubmit}
         className="flex items-center flex-col sm:flex-row"
@@ -56,7 +56,7 @@ export const StayUpdated = () => {
         <Button
           type="submit"
           disabled={isLoading}
-          className="bg-green-600 text-white font-semibold rounded-lg transition-all duration-300 hover:bg-green-700 hover:scale-105 shadow-md"
+          className="bg-white text-black   font-semibold rounded-lg transition-all duration-300 hover:bg-green-700 hover:scale-105 shadow-md"
         >
           {isLoading ? "Submitting..." : "Stay Updated"}
         </Button>
