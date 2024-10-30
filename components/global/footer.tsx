@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import { Button } from "../ui/button";
 import { Github } from "lucide-react";
@@ -29,7 +28,6 @@ export const Footer = () => {
             </a>
             .
           </p>
-
           <div className="flex items-center justify-center space-x-4 sm:ml-auto sm:justify-end">
             <Link
               href="https://github.com/notsoocool"
